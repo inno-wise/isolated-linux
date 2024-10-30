@@ -1,0 +1,4 @@
+#login docker
+docker login -u <username>
+password:
+.
