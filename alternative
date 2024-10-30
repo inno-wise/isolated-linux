@@ -1,0 +1,6 @@
+alternative 
+docker pull kalilinux/kali-rolling
+
+docker run --tty --interactive kalilinux/kali-rolling /bin/bash
+
+apt update && apt install -y kali-linux-headless
